@@ -7,6 +7,22 @@
         {
             "source": "/:match*",
             "destination": "https://api.openai.com/:match*"
+        },
+        {
+            "source": "/api.openai.com/",
+            "destination": "https://api.openai.com"
+        },
+        {
+            "source": "/api.openai.com/:match*",
+            "destination": "https://api.openai.com/:match*"
+        },
+        {
+            "source": "/registry-1.docker.io/",
+            "destination": "https://registry-1.docker.io"
+        },
+        {
+            "source": "/registry-1.docker.io/:match*",
+            "destination": "https://registry-1.docker.io/:match*"
         }
     ]
 }
