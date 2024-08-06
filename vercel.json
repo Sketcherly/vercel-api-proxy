@@ -1,14 +1,6 @@
 {
     "rewrites": [
         {
-            "source": "/",
-            "destination": "https://registry-1.docker.io"
-        },
-        {
-            "source": "/:match*",
-            "destination": "https://registry-1.docker.io/:match*"
-        },
-        {
             "source": "/https/:match/:url*",
             "destination": "https://:match/:url*"
         },
